@@ -31,16 +31,16 @@
 
 # Download Image; replace link to $image to add your own image
 
-$image =  "https://filebin.net/91nj476ih4hzsyzl/2047454.jpg"
+$image =  "https://github.com/K-Shivam-Rao/prankwar/blob/c4762243995bf8cc6728c9edc3bebc426f7795ce/2047454.png?raw=true"
 
 $i = -join($image,"?dl=1")
 iwr $i -O $env:TMP\i.png
 
-iwr https://filebin.net/91nj476ih4hzsyzl/2047454.jpg?dl=1 -O $env:TMP\i.png
+iwr https://github.com/K-Shivam-Rao/prankwar/blob/c4762243995bf8cc6728c9edc3bebc426f7795ce/2047454.png?raw=true?dl=1 -O $env:TMP\i.png
 
 # Download WAV file; replace link to $wav to add your own sound
 
-$wav = "https://filebin.net/91nj476ih4hzsyzl/toolur_djizya.wav3?raw=true"
+$wav = "https://github.com/K-Shivam-Rao/prankwar/raw/main/toolur_djizya.wav"
 
 $w = -join($wav,"?dl=1")
 iwr $w -O $env:TMP\s.wav
